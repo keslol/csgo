@@ -28,12 +28,12 @@
 21. Go back to steamcmd/cs_go/csgo
 22. Extract the sourcemod.zip inside this folder 
 23. (If you want you can restart the server via the bat file , reconnect and type "meta info" to check if sourcemod installed correctly should output
-.................
+```
 ] meta list
   [01] SourceMod (1.11.0.6934) by AlliedModders LLC
   [02] CS Tools (1.11.0.6934) by AlliedModders LLC
   [03] SDK Tools (1.11.0.6934) by AlliedModders LLC
-................. 
+```
   - quit inside server console again
 24.
 25. Go to steamcmd\cs_go\csgo\addons\sourcemod\configs 
