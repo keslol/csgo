@@ -41,10 +41,13 @@ start srcds.exe -game csgo -tickrate 128 -console -usercon +game_type 0 +game_mo
 ```
   - quit inside server console again
 25. Go to steamcmd\cs_go\csgo\addons\sourcemod\configs 
-26. Open admins_simple.ini and add this "STEAM_1:0:1300xxx" "99:z"	just replace STEAM_1:0:1300xxx with your steamid (this time actually use the quotation mark
-27. If you want you can start the server again type in "sm_admin" to test if you are a admin a admin menu should pop up
-28. Extra the practicemode.zip to steamcmd\cs_go\csgo and start server
-29. Type .prac inside the game (not the console) for other commands look at the list on https://github.com/splewis/csgo-practice-mode
+26. Open admins_simple.ini and add this (just replace STEAM_1:0:1300xxx with your steamid)
+```
+"STEAM_1:0:1300xxx" "99:z"
+```
+28. If you want you can start the server again type in "sm_admin" to test if you are a admin a admin menu should pop up
+29. Extra the practicemode.zip to steamcmd\cs_go\csgo and start server
+30. Type .prac inside the game (not the console) for other commands look at the list on https://github.com/splewis/csgo-practice-mode
 
 
 
