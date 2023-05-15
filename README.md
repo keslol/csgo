@@ -32,7 +32,7 @@ start srcds.exe -game csgo -tickrate 128 -console -usercon +game_type 0 +game_mo
 20. Type "quit" inside the cgoserver console
 21. Go back to steamcmd/cs_go/csgo
 22. Extract the sourcemod.zip inside this folder 
-23. (If you want you can restart the server via the bat file , reconnect and type "meta info" to check if sourcemod installed correctly should output
+23. (If you want you can restart the server via the bat file , reconnect and type "meta list" to check if sourcemod installed correctly should output
 ```
 ] meta list
   [01] SourceMod (1.11.0.6934) by AlliedModders LLC
