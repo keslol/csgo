@@ -1,6 +1,5 @@
 1. Create a Folder for SteamCMD (End size is around 32GB)
   - I chose E:/Games/steamcmd
-  - 
 2. Download SteamCMD via https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip
 3. Extract .zip file to newly created folder
 4. Enable File name extensions (In Win10 this is a checkbox in the View Tab of the File explorer)
