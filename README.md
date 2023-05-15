@@ -38,5 +38,5 @@ For this section you can just rightclick the console window to paste instead of 
 ### Update Script
 1. Enable File name extensions (In Win10 this is a checkbox in the View Tab of the File explorer)
 2. Rightclick in the steamcmd folder  New -> Text file 
-3. Insert "steamcmd.exe +force_install_dir ../csgo +login anonymous +app_update 740 +quit" and save
+3. Insert "steamcmd.exe +force_install_dir ../cs_go +login anonymous +app_update 740 +quit" and save
 4. Exit Notepad and change the extensions from .txt to .bat
