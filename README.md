@@ -17,7 +17,7 @@ steamcmd.exe +force_install_dir ./cs_go/ +login anonymous +app_update 740 +quit
   - Visit http://www.metamodsource.net/downloads.php?branch=stable and click the Windows Icon
 9. Open CSGO for now (and find out how to open the console if you don't already know how)
 10. Open the steamcmd/cs_go/csgo folder 
-11. Extract the Metamod zip to the steamcmd/cs_go folder
+11. Extract the Metamod zip inside that folder
 12. Just for the testing go back to steamcmd/cs_go 
 13. Create a new bat file with the following command  (you can change the tickrate to 64 or just create two bat files with different tickrates)
 ```
