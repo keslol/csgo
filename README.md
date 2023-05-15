@@ -3,7 +3,8 @@
 2. Download SteamCMD via https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip
 3. Extract .zip file to newly created folder
 4. Open the steamcmd.exe a console window should open and download data (don't close this window for now)
-# For this section you can just rightclick the console window to paste instead of retyping commands
+
+For this section you can just rightclick the console window to paste instead of retyping commands
 6. A prompt (Steam>) should be shown type "force_install_dir ./cs_go/" without the quotes
 7. Now type in "login anonymous"
 8. Now "app_update 740 validate" (This will take a while depending on internet speed
