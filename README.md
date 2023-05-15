@@ -6,7 +6,7 @@
 5. Rightclick in the steamcmd folder  New -> Text file 
 6. Insert "steamcmd.exe +force_install_dir ../cs_go +login anonymous +app_update 740 +quit" without quotes and save
 7. Exit Notepad and change the extensions from .txt to .bat
-8. Open the new file
+8. Open the new file (a black console window should appear and start downloading everything for you, that might take a while )
  - In the meantime visit https://github.com/splewis/csgo-practice-mode and click on the latest Release on the right side (1.3.4 currently)
   - Download the practicmode_1.3.4.zip or whatever version it is
   - Visit https://www.sourcemod.net/downloads.php?branch=stable and click the Windows Icon 
