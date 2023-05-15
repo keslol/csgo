@@ -29,7 +29,7 @@ start srcds.exe -game csgo -tickrate 128 -console -usercon +game_type 0 +game_mo
 17. In the csgo game type "connect youripv4:27016" youripv4 = the just gotten ipv4 address it should connect to the server
 18. In the console type "meta version" just to test if everything installed correctly
 19. Also type in status and copy and save your steamid somewhere (should be next to your name and look like this STEAM_1:0:1300xxx 
-20. Type "quit" sgoserver console
+20. Type "quit" inside the cgoserver console
 21. Go back to steamcmd/cs_go/csgo
 22. Extract the sourcemod.zip inside this folder 
 23. (If you want you can restart the server via the bat file , reconnect and type "meta info" to check if sourcemod installed correctly should output
