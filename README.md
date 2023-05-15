@@ -19,21 +19,20 @@ steamcmd.exe +force_install_dir ./cs_go/ +login anonymous +app_update 740 +quit
 10. Open the steamcmd/cs_go/csgo folder 
 11. Extract the Metamod zip to the steamcmd/cs_go folder
 12. Just for the testing go back to steamcmd/cs_go 
-13. Create a new bat file with the following command 
+13. Create a new bat file with the following command  (you can change the tickrate to 64 or just create two bat files with different tickrates)
 ```
 start srcds.exe -game csgo -tickrate 128 -console -usercon +game_type 0 +game_mode 1 +mapgroup mg_active +map de_inferno -maxplayers_override 32 +port 27016
 ```
-you can change the tickrate to 64 or just create two bat files with different tickrates
-15. Find out your local ip (for example open Command Prompt and type "ipconfig" remember your ipv4 address
-16. Open csgo (dont click the .bat before)
-17. Double click the newly created start.bat a black window should open up again
-18. In the csgo game type "connect youripv4:27016" youripv4 = the just gotten ipv4 address it should connect to the server
-19. In the console type "meta version" just to test if everything installed correctly
-20. Also type in status and copy and save your steamid somewhere (should be next to your name and look like this STEAM_1:0:1300xxx 
-21. Type "quit" sgoserver console
-22. Go back to steamcmd/cs_go/csgo
-23. Extract the sourcemod.zip inside this folder 
-24. (If you want you can restart the server via the bat file , reconnect and type "meta info" to check if sourcemod installed correctly should output
+14. Find out your local ip (for example open Command Prompt and type "ipconfig" remember your ipv4 address
+15. Open csgo (dont click the .bat before)
+16. Double click the newly created start.bat a black window should open up again
+17. In the csgo game type "connect youripv4:27016" youripv4 = the just gotten ipv4 address it should connect to the server
+18. In the console type "meta version" just to test if everything installed correctly
+19. Also type in status and copy and save your steamid somewhere (should be next to your name and look like this STEAM_1:0:1300xxx 
+20. Type "quit" sgoserver console
+21. Go back to steamcmd/cs_go/csgo
+22. Extract the sourcemod.zip inside this folder 
+23. (If you want you can restart the server via the bat file , reconnect and type "meta info" to check if sourcemod installed correctly should output
 ```
 ] meta list
   [01] SourceMod (1.11.0.6934) by AlliedModders LLC
@@ -41,7 +40,6 @@ you can change the tickrate to 64 or just create two bat files with different ti
   [03] SDK Tools (1.11.0.6934) by AlliedModders LLC
 ```
   - quit inside server console again
-24.
 25. Go to steamcmd\cs_go\csgo\addons\sourcemod\configs 
 26. Open admins_simple.ini and add this "STEAM_1:0:1300xxx" "99:z"	just replace STEAM_1:0:1300xxx with your steamid (this time actually use the quotation mark
 27. If you want you can start the server again type in "sm_admin" to test if you are a admin a admin menu should pop up
