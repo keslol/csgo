@@ -1,3 +1,5 @@
+# This is mainly a guide for a selfhosted LOCAL server for online access more has to be done will update maybe later
+
 1. Create a Folder for SteamCMD (End size is around 32GB)
   - I chose E:/Games/steamcmd
 2. Download SteamCMD via https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip
