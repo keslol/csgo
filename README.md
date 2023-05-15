@@ -3,6 +3,10 @@
 2. Download SteamCMD via https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip
 3. Extract .zip file to newly created folder
 4. Open the steamcmd.exe a console window should open and download data (don't close this window for now)
+  - In the meantime visit https://github.com/splewis/csgo-practice-mode and click on the latest Release on the right side (1.3.4 currently)
+  - Download the practicmode_1.3.4.zip or whatever version it is
+  - Visit https://www.sourcemod.net/downloads.php?branch=stable and click the Windows Icon 
+  - Visit http://www.metamodsource.net/downloads.php?branch=stable and click the Windows Icon
 
 For this section you can just rightclick the console window to paste instead of retyping commands
 
