@@ -21,16 +21,22 @@
 16. Double click the newly created start.bat a black window should open up again
 17. In the csgo game type "connect youripv4:27016" youripv4 = the just gotten ipv4 address it should connect to the server
 18. In the console type "meta version" just to test if everything installed correctly
-19. Type "quit" sgoserver console
-20. Go back to steamcmd/cs_go/csgo/addons 
-21. Extract the sourcemod.zip inside this folder 
-22. (If you want you can restart the server via the bat file , reconnect and type "meta info" to check if sourcemod installed correctly should output 
+19. Also type in status and copy and save your steamid somewhere (should be next to your name and look like this STEAM_1:0:1300xxx 
+20. Type "quit" sgoserver console
+21. Go back to steamcmd/cs_go/csgo
+22. Extract the sourcemod.zip inside this folder 
+23. (If you want you can restart the server via the bat file , reconnect and type "meta info" to check if sourcemod installed correctly should output 
   - ] meta list
   - [01] SourceMod (1.11.0.6934) by AlliedModders LLC
   - [02] CS Tools (1.11.0.6934) by AlliedModders LLC
   - [03] SDK Tools (1.11.0.6934) by AlliedModders LLC
+  - quit inside server console again
 24.
- 
+25. Go to steamcmd\cs_go\csgo\addons\sourcemod\configs 
+26. Open admins_simple.ini and add this "STEAM_1:0:1300xxx" "99:z"	just replace STEAM_1:0:1300xxx with your steamid (this time actually use the quotation mark
+27. If you want you can start the server again type in "sm_admin" to test if you are a admin a admin menu should pop up
+28. Extra the practicemode.zip to steamcmd\cs_go\csgo and start server
+29. Type .prac inside the game (not the console) for other commands look at the list on https://github.com/splewis/csgo-practice-mode
 
 
 
